@@ -1,10 +1,11 @@
 <?php
-  $num1 = 25;
-  $num2 = 30;
+  $num = rand(1, 5);
 
-  if ($num1 > $num2 ) {
-    echo "El número mayor es ​ $num1";
-  }else{
-    echo "El número mayor es ​ $num2";
+  echo $num;
+
+  echo "<br>";
+
+  if ($num == 3 || $num == 5) {
+    echo "El número es $num";
   }
  ?>
